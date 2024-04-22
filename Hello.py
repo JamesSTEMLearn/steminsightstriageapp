@@ -33,6 +33,8 @@ def run():
         """,  unsafe_allow_html=True
     )
 
+    st.empty()
+    
     user_question_input = st.text_input('Please Enter a Question For Consideration :sun_with_face:')
 
     col1,col2 = st.columns(2)

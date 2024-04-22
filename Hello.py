@@ -24,12 +24,12 @@ def run():
     col1,col2 = st.columns(2)
     with col1:
         user_team_input = st.selectbox(
-            'What Team do you sit on',
+            'What Team Do You Sit On',
             ('','Network Improvement','Marketing and Comms', 'Education Team')
         )
     with col2:
         user_project_input = st.selectbox(
-            'What project does your question relate too',
+            'What Project Does Your Question Relate Too',
             ('','NCCE','Science', 'STEM Ambassadors', 'General CPD')
         )
 

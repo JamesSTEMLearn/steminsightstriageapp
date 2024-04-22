@@ -49,6 +49,8 @@ def run():
             'What Project Does Your Question Relate Too',
             ('','NCCE','Science', 'STEM Ambassadors', 'General CPD')
         )
+        
+    user_question_value_input = st.text_input('Please Enter Why Your Question Has Value')
 
 
 if __name__ == "__main__":

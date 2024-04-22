@@ -15,8 +15,12 @@ def run():
 
     st.markdown(
         """
-        This application provides a platform for you to pose questions for discussion within the STEM Insights project group.
+        This application provides a platform for you to pose questions for discussion within the STEM Insights project group. 
     """
+        <br>
+        """ 
+        This is a test
+        """
     )
 
     user_question_input = st.text_input('Please Enter a Question For Consideration :sun_with_face:')

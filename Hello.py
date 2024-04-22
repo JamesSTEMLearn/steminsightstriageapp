@@ -20,7 +20,7 @@ def run():
     """
     )
 
-    user_input = st.text_input('Please Enter a Question :sun_with_face:')
+    user_input = st.text_input('Please Enter a Question For Consideration :sun_with_face:')
 
      # user_input = st.text_input('Please Enter a Question')
 

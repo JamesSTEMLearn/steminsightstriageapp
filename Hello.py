@@ -20,7 +20,7 @@ def run():
     """
     )
 
-     user_input = st.text_input('Please Enter a Question')
+     # user_input = st.text_input('Please Enter a Question')
 
 if __name__ == "__main__":
     run()

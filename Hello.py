@@ -23,8 +23,8 @@ def run():
         """
 
         """
-        **Test** 
-        """
+        <u>**Test**</u> 
+        """, unsafe_allow_html=True
     )
 
     user_question_input = st.text_input('Please Enter a Question For Consideration :sun_with_face:')

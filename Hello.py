@@ -20,11 +20,11 @@ LOGGER = get_logger(__name__)
 
 def run():
     st.set_page_config(
-        page_title="Hello",
+        page_title="STEM Insights",
         page_icon="👋",
     )
 
-    st.write("# Welcome to Streamlit! 👋")
+    st.write("# STEM Insights Questions Submission - 📖")
 
     st.sidebar.success("Select a demo above.")
 

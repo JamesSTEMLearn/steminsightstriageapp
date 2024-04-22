@@ -31,6 +31,7 @@ def run():
         user_project_input = st.selectbox(
             'What project does your question relate too',
             ('','NCCE','Science', 'STEM Ambassadors', 'General CPD')
+        )
 
 
 if __name__ == "__main__":

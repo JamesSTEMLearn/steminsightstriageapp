@@ -24,7 +24,13 @@ def run():
 
         """
         <u>**Examples**</u> of correctly considered and asked questions are given below the form. 
-        """, unsafe_allow_html=True
+        """
+
+        """
+        <center>
+        ---------------------------------------------------
+        </center>
+        """,  unsafe_allow_html=True
     )
 
     user_question_input = st.text_input('Please Enter a Question For Consideration :sun_with_face:')

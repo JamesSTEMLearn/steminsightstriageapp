@@ -24,7 +24,7 @@ def run():
 
     user_team_input = st.selectbox(
         'What Team do you sit on',
-        ('Network Improvement','Marketing and Comms', 'Education Team')
+        ('Network Improvement','Marketing and Comms', 'Education Team'))
 
 
 if __name__ == "__main__":

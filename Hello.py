@@ -22,7 +22,10 @@ def run():
 
     user_question_input = st.text_input('Please Enter a Question For Consideration :sun_with_face:')
 
-     # user_input = st.text_input('Please Enter a Question')
+    user_team_input = st.selectbox(
+        'What Team do you sit on',
+        ('Network Improvement','Marketing and Comms', 'Education Team')
+
 
 if __name__ == "__main__":
     run()
